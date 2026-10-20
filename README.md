@@ -40,3 +40,19 @@ Git and GitHub were used to track project changes. Multiple commits document imp
 
 ## Conclusion
 StudySprint demonstrates how a simple website can be developed and maintained using version control and automated checks through GitHub Actions.
+
+
+
+## Screenshots / Evidence
+
+### 1. GitHub Actions Success
+![GitHub Actions Success](github-actions-success.png)
+
+### 2. Repository Files
+![StudySprint Repository](studysprint-repository.png)
+
+### 3. Git Commit History
+![Git Commit History](studysprint-commits.png)
+
+### 4. Working Website
+![StudySprint Website](studysprint-website.png)
