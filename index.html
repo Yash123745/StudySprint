@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySprint - Student Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📚 StudySprint</h1>
+        <p>Your daily study planner</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Plan your day. Reach your goals.</h2>
+            <p>Organize your studies, one task at a time.</p>
+        </section>
+
+        <section class="planner">
+            <h2>My Study Tasks</h2>
+            <form id="taskForm">
+                <input type="text" id="taskInput" placeholder="Enter a study task..." required>
+                <button type="submit">Add Task</button>
+            </form>
+            <p id="taskCount">0 tasks remaining</p>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by a student, for students.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
