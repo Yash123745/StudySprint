@@ -1,0 +1,26 @@
+
+name: StudySprint CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required project files
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f script.js
+          echo "All StudySprint files are present"
+
+      - name: Check JavaScript syntax
+        run: node --check script.js
